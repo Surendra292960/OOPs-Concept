@@ -1,0 +1,7 @@
+G:\C#.NetPrograms\FolderOOps\FolderOOps\bin\Debug\FolderOOps.exe.config
+G:\C#.NetPrograms\FolderOOps\FolderOOps\bin\Debug\FolderOOps.exe
+G:\C#.NetPrograms\FolderOOps\FolderOOps\bin\Debug\FolderOOps.pdb
+G:\C#.NetPrograms\FolderOOps\FolderOOps\obj\Debug\FolderOOps.csproj.CoreCompileInputs.cache
+G:\C#.NetPrograms\FolderOOps\FolderOOps\obj\Debug\FolderOOps.exe
+G:\C#.NetPrograms\FolderOOps\FolderOOps\obj\Debug\FolderOOps.pdb
+G:\C#.NetPrograms\FolderOOps\FolderOOps\obj\Debug\FolderOOps.csprojAssemblyReference.cache

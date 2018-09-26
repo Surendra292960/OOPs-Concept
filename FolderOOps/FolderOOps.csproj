@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F07B44AF-2F83-4943-A0F8-64CE150BE448}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FolderOOps</RootNamespace>
+    <AssemblyName>FolderOOps</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FolderOOps.Constructor.NewFolder1.TestOverriding</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constructor\NewFolder1\AbstarctClass.cs" />
+    <Compile Include="Constructor\NewFolder1\Account.cs" />
+    <Compile Include="Constructor\NewFolder1\Address.cs" />
+    <Compile Include="Constructor\NewFolder1\Class1.cs" />
+    <Compile Include="Constructor\NewFolder1\Destructor.cs" />
+    <Compile Include="Constructor\NewFolder1\Drawable.cs" />
+    <Compile Include="Constructor\NewFolder1\Employee  .cs" />
+    <Compile Include="Constructor\NewFolder1\InheritanceClass2.cs" />
+    <Compile Include="Constructor\NewFolder1\Animal.cs" />
+    <Compile Include="Constructor\NewFolder1\MemberOverLoading.cs" />
+    <Compile Include="Constructor\NewFolder1\MethodOverriding.cs" />
+    <Compile Include="Constructor\NewFolder1\ParamerizedClass2.cs" />
+    <Compile Include="Constructor\NewFolder1\PropertiesClass2.cs" />
+    <Compile Include="Constructor\NewFolder1\SingleInheritance.cs" />
+    <Compile Include="Constructor\NewFolder1\StaticChange.cs" />
+    <Compile Include="Constructor\NewFolder1\StaticClass.cs" />
+    <Compile Include="Constructor\NewFolder1\StaticConstructor.cs" />
+    <Compile Include="Constructor\NewFolder1\StaticField.cs" />
+    <Compile Include="Constructor\NewFolder1\StructClass.cs" />
+    <Compile Include="Constructor\NewFolder1\StructClass2.cs" />
+    <Compile Include="Constructor\NewFolder1\ThisClass2.cs" />
+    <Compile Include="OOPs\ClSConstructor1.cs" />
+    <Compile Include="OOPs\ClSEmployee.cs" />
+    <Compile Include="OOPs\ObjectClass.cs" />
+    <Compile Include="OOPs\ObjectClass2.cs" />
+    <Compile Include="OOPs\ObjectClass3.cs" />
+    <Compile Include="OOPs\ParaClass1.cs" />
+    <Compile Include="OOPs\Parameterized.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="b1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
